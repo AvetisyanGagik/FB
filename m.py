@@ -13,7 +13,7 @@ import telebot
 #Open  FB 
 
 driver= webdriver.Chrome(
-    executable_path='/home/gagik/Documents/projects/FbBirthdays/chromedriver_linux64/chromedriver'
+    executable_path='path'
 ) 
 wait = WebDriverWait(driver, 10)
 driver.get("https://facebook.com")
