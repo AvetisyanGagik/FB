@@ -89,7 +89,7 @@ driver.close()
 
 
 
-bot = telebot.TeleBot('5501940180:AAH4c1li_8nLBlgfqAfSWMGrXsxURQuL01k')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands = ['start'])
 def start(message):
